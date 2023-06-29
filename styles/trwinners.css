@@ -1,0 +1,35 @@
+/* Styles for the container element that holds the trophy winners */
+.trophy-winners {
+  text-align: center;
+  padding-top: 290px;
+  height: 80vh;
+  color: white;
+  background: rgb(29,25,3);
+  background: radial-gradient(circle, rgba(29,25,3,1) 21%, rgba(105,232,240,1) 86%);
+}
+
+/* Styles for each individual winner element */
+.winner {
+  display: inline-block;
+  margin: 20px;
+}
+
+/* Styles for the image inside each winner element */
+.winner img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Styles for the heading inside each winner element */
+.winner h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Styles for the paragraph inside each winner element */
+.winner p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
