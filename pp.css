@@ -1,0 +1,35 @@
+/* Styles for the privacy policy container */
+.privacy-policy {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the heading of the privacy policy */
+.privacy-policy h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the subheading of the privacy policy */
+.privacy-policy h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Styles for paragraphs within the privacy policy */
+.privacy-policy p {
+  margin-bottom: 10px;
+}
+
+/* Styles for unordered lists within the privacy policy */
+.privacy-policy ul {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* Styles for list items within the privacy policy */
+.privacy-policy li {
+  margin-bottom: 5px;
+}

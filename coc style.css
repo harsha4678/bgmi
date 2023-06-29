@@ -1,0 +1,21 @@
+.container {
+  max-width: 600px; /* Sets the maximum width of the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds padding around the container */
+  font-family: Arial, sans-serif; /* Sets the font family for the container */
+}
+
+h1 {
+  font-size: 28px; /* Sets the font size for the heading level 1 */
+  text-align: center; /* Centers the heading horizontally */
+}
+
+h2 {
+  font-size: 24px; /* Sets the font size for the heading level 2 */
+  margin-top: 20px; /* Adds top margin to the heading */
+}
+
+p {
+  font-size: 16px; /* Sets the font size for paragraphs */
+  margin-bottom: 10px; /* Adds bottom margin to paragraphs */
+}

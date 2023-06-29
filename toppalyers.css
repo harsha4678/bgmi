@@ -1,0 +1,53 @@
+/* Styles for the top players section */
+.top-players-section {
+  padding: 20px;
+  height: 100vh;
+}
+
+/* Styles for the body */
+body {
+  background-image: url(https://wallpapercrafter.com/desktop1/513588-space-stars-black-background-digital-art-supernova.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Styles for the heading in the top players section */
+.top-players-section h2 {
+  text-align: center;
+  font-size: 24px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+/* Styles for the player list */
+.player-list {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for individual players */
+.player {
+  text-align: center;
+  margin: 0 10px;
+}
+
+/* Styles for player images */
+.player img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Styles for player names */
+.player h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Styles for player descriptions */
+.player p {
+  font-size: 14px;
+  color: white;
+}

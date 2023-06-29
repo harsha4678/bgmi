@@ -1,0 +1,244 @@
+/* Resetting default styles and setting font properties */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+    font-weight: lighter;
+}
+
+/* Styling the body */
+body {
+    overflow-x: hidden;
+    background: rgb(23, 13, 13);
+    background: radial-gradient(circle, rgba(23, 13, 13, 1) 21%, rgba(221, 14, 14, 1) 100%);
+}
+
+/* Styling the header section */
+.main {
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+
+/* Styling the navigation lists */
+.nav-lists ul li {
+    list-style-type: none;
+    margin: auto 40px;
+}
+
+.nav-lists ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1px;
+    transition: 0.6s;
+    font-size: 25px;
+}
+
+/* Styling the social media links */
+.social ul li {
+    list-style-type: none;
+    margin: auto 40px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1px;
+    transition: 0.6s;
+    font-size: 25px;
+}
+
+/* Styling the logo */
+.logo {
+    float: left 0px;
+}
+
+/* Displaying the navigation and social media lists in flex */
+.nav-lists ul {
+    display: flex;
+}
+
+.social ul {
+    display: flex;
+}
+
+/* Styling the download button */
+.model {
+    font-size: 15px;
+    border: 2px solid black;
+    border: none;
+    padding: 5px 15px;
+    background-color: goldenrod;
+    transition: 0.7s;
+    border-radius: 5px 5px;
+}
+
+.model:hover {
+    border: 2px solid aliceblue;
+    background-color: black;
+    color: rgb(0, 187, 255);
+}
+
+/* Styling the navigation links on hover */
+.nav-lists ul li a:hover {
+    color: gold;
+    text-decoration: overline;
+    transition: 0.7s;
+}
+
+/* Styling the social media links on hover */
+.social ul li a:hover {
+    color: red;
+    text-decoration: overline;
+    transition: 1.3s;
+}
+
+/* Styling the content section */
+.content {
+    padding-top: 150px;
+    padding-left: 160px;
+}
+
+.content .text {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.content .text h6 {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content .text h3 {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content .text h1 {
+    font-size: 150px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+}
+
+.content.text p {
+    max-width: 100%;
+    width: 450px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+/* Styling the trailer button */
+.trailer {
+    font-size: 30px;
+    border: 2px solid black;
+    border: none;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    transition: 0.7s;
+    border-radius: 20px 20px;
+}
+
+.trailer:hover {
+    border: 2px solid aliceblue;
+    background-color: black;
+    color: rgb(0, 187, 255);
+}
+
+/* Adding custom font */
+@font-face {
+    font-family: myfont;
+    src: url(pubg.ttf);
+}
+
+/* Styling the hero section */
+.hero img {
+    float: right;
+    padding-right: 150px;
+}
+
+/* Styling the second hero section */
+.hero2 {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: whitesmoke;
+}
+
+.hero2 p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.hero2 img {
+    padding-top: 30px;
+    height: 75vh;
+    max-width: 100%;
+}
+
+/* Styling the footer section */
+.last {
+    padding-top: 5px;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    height: vh;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.last p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.last .down p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling the third hero section */
+.hero3 h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Styling the hello section */
+.hello {
+    background: whitesmoke;
+    background-position: center;
+    background-size: cover;
+}
+
+.all {
+    text-align: center;
+}
+
+.all img {
+    text-align: center;
+    box-shadow: 10px 10px 10px;
+    transition: 1s ease;
+}
+
+.all img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.last .down a {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
